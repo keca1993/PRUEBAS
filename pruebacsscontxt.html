@@ -1,0 +1,35 @@
+<html>
+    
+<head>
+    <title>Ejemplo de estilos CSS en un archivo externo</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <style>
+     h1+h2 { color:red; font-family: Arial} /*Selector adyacente*/
+     .grid-container {display:inline-grid;}
+     .grid-container {display:grid;grid-column-gap:50px;}
+    </style> 
+  
+</head>
+<body>
+    <p>Un párrafo de texto no muy largo.</p>
+    <p> Parrafo de texto con <strong> algunas palabras</strong> resaltadas</p>
+    <h1>hola1</h1>
+    <h2>hola2</h2>
+    <h2>
+        hola3
+    </h2>
+    
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>                
+    </div>    
+    
+</body>
+</html>
